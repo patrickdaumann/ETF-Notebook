@@ -1,5 +1,28 @@
 # ETF-Notebook
 
+## Deployment Steps
+
+Klonen des Repos
+```shell 
+git clone <Url>
+cd ETF-Notebook
+```
+
+Virtuelles Environment erstellen und laden
+```shell 
+python -m venv .venv
+source .venv/bin/activate
+```
+
+Installation der benötigten Pakate im virtuellen Environment
+```shell
+python -m pip install -U pip
+python -m pip install -r requirements.txt
+```
+
+In VSCode muss bei der Ausführung der richtige interpreter gewählt werden (.venv/...)
+
+
 ## Nutzung & Annahmen
 
 **Wie bedienen?**  
